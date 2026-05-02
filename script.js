@@ -790,7 +790,7 @@ check_box.addEventListener('change', function(){
 // end show password
 
 //login user
-let user_name="nsctim@123"
+let user_name="nscitm@123"
 let password="052026";
 let login_name=document.getElementById("user");
 function login_usar(){
