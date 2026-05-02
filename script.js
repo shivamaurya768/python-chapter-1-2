@@ -806,8 +806,8 @@ function login_usar(){
 }
 
         let t=document.getElementById("time");
-        let total_time=39*60;
-        let min=39;
+        let total_time=60*60;
+        let min=60;
         let sec=60;
        
 
@@ -822,7 +822,7 @@ function login_usar(){
             sec--;
         }
     setInterval(show_time, 1000);
-    let time_up=60000*35;
+    let time_up=60000*60;
     setTimeout(function(){
         alert("your exam finished");
         t.style.display="none";
