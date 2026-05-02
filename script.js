@@ -790,7 +790,7 @@ check_box.addEventListener('change', function(){
 // end show password
 
 //login user
-let user_name="nscitm@123";
+let user_name="nsctim@123"
 let password=052026;
 let login_name=document.getElementById("user");
 function login_usar(){
@@ -806,8 +806,8 @@ function login_usar(){
 }
 
         let t=document.getElementById("time");
-        let total_time=60*60;
-        let min=59;
+        let total_time=39*60;
+        let min=39;
         let sec=60;
        
 
@@ -822,7 +822,7 @@ function login_usar(){
             sec--;
         }
     setInterval(show_time, 1000);
-    let time_up=60000*60;
+    let time_up=60000*35;
     setTimeout(function(){
         alert("your exam finished");
         t.style.display="none";
